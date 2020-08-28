@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6898" started-at="2020-08-28T00:27:54Z" finished-at="2020-08-28T00:28:01Z">
+    <groups>
+    </groups>
+    <test name="Create Order Test" duration-ms="4987" started-at="2020-08-28T00:27:54Z" finished-at="2020-08-28T00:27:59Z">
+      <class name="com.APITestingFramework.testcases.paypal.CreateOrderTest">
+        <test-method status="PASS" signature="createOrder()[pri:0, instance:com.APITestingFramework.testcases.paypal.CreateOrderTest@247d8ae]" name="createOrder" duration-ms="4909" started-at="2020-08-28T00:27:54Z" finished-at="2020-08-28T00:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+      </class> <!-- com.APITestingFramework.testcases.paypal.CreateOrderTest -->
+    </test> <!-- Create Order Test -->
+    <test name="Get Order Test" duration-ms="1345" started-at="2020-08-28T00:27:59Z" finished-at="2020-08-28T00:28:01Z">
+      <class name="com.APITestingFramework.testcases.paypal.GetOrderTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.APITestingFramework.testcases.paypal.GetOrderTest@3d5c822d]" name="setUp" is-config="true" duration-ms="466" started-at="2020-08-28T00:27:53Z" finished-at="2020-08-28T00:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getOrder()[pri:0, instance:com.APITestingFramework.testcases.paypal.GetOrderTest@3d5c822d]" name="getOrder" duration-ms="1326" started-at="2020-08-28T00:27:59Z" finished-at="2020-08-28T00:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.APITestingFramework.testcases.paypal.GetOrderTest@3d5c822d]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-28T00:28:01Z" finished-at="2020-08-28T00:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.APITestingFramework.testcases.paypal.GetOrderTest -->
+    </test> <!-- Get Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
